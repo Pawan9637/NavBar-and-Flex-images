@@ -1,0 +1,175 @@
+.navbar{
+    background-color: black;/*overflow from parent,due to float*/
+    border-radius: 12px;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%
+   
+    
+
+
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none;/*background-color is gone due to float,which overflow it. */
+    margin: 16px 20px;
+}
+
+.navbar li a{
+    padding: 3pxpx 3px;
+    text-decoration: none;
+    color: white;
+
+}
+.button{
+  
+  color: white; 
+  padding: 12px 75px;
+}
+.info button{
+    border: 2px solid black;
+    padding: 4px;
+    /* border-radius: 10px; */
+    text-decoration: none;
+    background-color: black
+}
+.info button a{
+    text-decoration: none;
+    font-size:18px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.navbar h2{
+    color: white
+}
+
+
+  h1{
+    margin: 101px;
+    padding: 20px
+    margin-top: 50px;
+}
+p{
+    margin:60px;
+    padding:10px;
+}
+.navbar  h1{
+    margin: 1px;
+}
+
+img {
+float: right;
+border: 1px  black;
+margin: 0px 0px 15px 20px;
+}
+
+.container{
+    background-color:black;
+    margin-top: 50px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.small-container{
+   height: 300px;
+   width: 600px;
+   background-color:blueviolet;
+   margin: 80px 70px;
+  
+}
+
+.img-container{
+   height: 200px;
+   width: 300px;
+   background-color:white;
+   /* position: absolute; */
+   
+   float: right;
+   margin-top: -39px;
+   margin-bottom: -100px;
+   margin-right: -47%;
+   margin-left: 95%;
+   /* background-color: aqua; */
+   background-image: url("C:\Users\pawan\Desktop\Figma-Test(AccioJob)\pngegg 1.png.jpg");
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 424px;
+    height:220px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .item1{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://images.unsplash.com/photo-1585607344893-43a4bd91169a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZmVzdGl2YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: contain;
+ }
+
+ .item2{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://images.unsplash.com/photo-1608865413608-6cfd1fc622b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGl3YWxpJTIwZmVzdGl2YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60");
+    background-size: contain;
+ }
+
+ .item3{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://media.istockphoto.com/id/1331204944/photo/vivid-vibrant-multicolored-lights-of-ferris-wheel-at.jpg?b=1&s=170667a&w=0&k=20&c=IynicB5lVGTQ8u_om60lMMjHPPO_z5-DqGRtQ5qY9uo=");
+    background-size: contain;
+ }
+
+ .item4{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://media.istockphoto.com/id/490136776/photo/holi-festival-in-india.jpg?s=612x612&w=0&k=20&c=d0wbH6NqHdVtBFraISKaXnMQ97ZS3wfJDSQYZyODf7s=");
+    background-size: contain;
+ }
+
+ .item5{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://media.istockphoto.com/id/516767122/photo/smart-indian-couple-performing-gudhi-padwa-puja.jpg?s=612x612&w=0&k=20&c=TWGMwrfzfxY_FoPXKaMnYGjNcZtrIK2k9YfBG1mGjh0=");
+    background-size: contain;
+ }
+
+ .item6{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-image: url("https://media.istockphoto.com/id/1345971391/photo/young-indian-girl-holding-diwali-oil-lamp.jpg?b=1&s=170667a&w=0&k=20&c=fFeLSLFggSKCm8DEpfzFM9YCvTLWYKUKBHkh4FsvSl4=");
+    background-size: contain;
+ }
